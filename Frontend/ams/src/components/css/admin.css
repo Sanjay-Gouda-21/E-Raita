@@ -1,0 +1,87 @@
+
+.admin-container {
+  display: flex;
+  height: fit-content;
+  overflow: auto;
+  margin-top: 2px;
+}
+
+.admin-sidebar {
+  width: 200px;
+  box-shadow: 2px 0px 20px rgba(26, 23, 23, 0.2);
+  position: fixed;
+  margin-top: -8px;
+  background-color: #f5f3f3;
+  height: 100vh;
+
+}
+.admin-menu
+{
+  padding: 10px;
+  margin: 2px;
+}
+
+.admin-menu li {
+  list-style: none;
+  padding: 5px;
+ 
+}
+
+.admin-menu-item {
+  margin: 0px;
+  display: block;
+  padding: 5px;
+  width: 150px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #3a0233;
+  font-size: bold;
+    font-family: Arial, sans-serif;
+     text-transform: uppercase;
+     font-weight: bold;
+
+
+
+  
+  transition: background-color 0.3s;
+}
+
+.admin-menu-item:hover {
+  background-color: #fda2ed; 
+  color: rgb(17, 8, 8);
+}
+
+
+.admin-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.admin-menu-item.active {
+  background-color: #2980b9;
+}
+
+#log-out {
+ margin-left: 5px;
+margin-top: 2px;
+  padding: 5px;
+   width: 150px;
+  background-color: rgb(246, 69, 15);
+   font-family: Arial, sans-serif;
+     text-transform: uppercase;
+     font-weight: bold;
+ 
+  text-decoration: none;
+  color: #0a0a0a;
+  
+}
+
+#log-out:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
+
+
+.admin-menu-item.logout:hover {
+  background-color: #e74c3c; 
+}

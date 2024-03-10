@@ -1,0 +1,91 @@
+/* u-scheme.css */
+
+.update-scheme-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 77px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 70%;
+  overflow: hidden;
+  height: 82vh;
+}
+
+.update-scheme-form {
+  flex-grow: 1;
+  margin-left: 30px;
+}
+.h1{
+    text-align: center;
+}
+
+.lb{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    
+}
+
+.txt1 {
+  width: 300px;
+  padding: 8px;
+  /* margin-top: 3px; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.txt1d{
+    width: 411px;
+     padding: 8px;
+  /* margin-top: 3px; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+   
+}
+
+.txt1i{
+    width: 400px;
+     padding: 8px;
+  /* margin-top: 3px; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.sb1 {
+  
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+ 
+  
+}
+.sb1{
+    margin-top: 15px;
+  width: 100px;
+  margin-right: 10px;
+  float: right;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.right-side-image {
+  flex-basis: 200px; /* Adjust the width of the right-side image as needed */
+}
+
+.image-placeholder {
+  width: 350px;
+  height: 350px;
+ margin-left: 10px;
+  border-radius: 5px;
+}

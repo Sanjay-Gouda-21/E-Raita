@@ -1,0 +1,75 @@
+/* farmers.css */
+
+.customers-container {
+  margin-top: -40px;
+  margin-left: 230px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.insert-customer-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.insert-customer-button:hover {
+  background-color: #2980b9;
+}
+
+.customers-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.customers-table th,
+.customers-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.customers-table th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.customers-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.customers-table tr:hover {
+  background-color: #ddd;
+}
+
+.btn8 {
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px ;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  width: 90px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Error message style */
+.error-message {
+  color: #e74c3c;
+  margin-top: 10px;
+  font-size: 16px;
+}

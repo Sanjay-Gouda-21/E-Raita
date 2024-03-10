@@ -1,0 +1,59 @@
+.agri-news-container {
+  width: 96.5%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.news-item {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #dff0f4;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.news-item img {
+  width: 150px;
+  height: 90px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+.news-item h2 {
+  text-align: left;
+  font-size: 20px;
+  font-family: cursive;
+  margin-bottom: 5px;
+  color: rgb(238, 2, 255);
+  text-decoration: underline;
+}
+
+.news-item p {
+  color: #090707;
+  font-family: Cambria, Cochin,  "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.news-item p span {
+  color: #ec0c0c;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 5px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.news-item button {
+  background-color: #07a336;
+  color: #f7f6f6;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 100px;
+  font-size: small;
+  font-weight: bolder;
+}
+

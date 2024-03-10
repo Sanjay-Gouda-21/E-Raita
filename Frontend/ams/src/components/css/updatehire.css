@@ -1,0 +1,49 @@
+/* update.css */
+
+.update-hire-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.update-hire-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.update-hire-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.update-hire-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.update-hire-form input[type="text"],
+.update-hire-form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.update-hire-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.update-hire-form button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,71 @@
+/* hire.css */
+
+/* Container for the Hire component */
+.hire-container1{
+  width: 96.5%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Labour table */
+.labour-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.labour-table th,
+.labour-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.labour-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.labour-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hire button */
+.s-btn {
+  background-color: #0caf3d;
+  color: #fff;
+  border: none;
+  width: 70px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.s-btn:hover {
+  background-color: #088c33;
+}

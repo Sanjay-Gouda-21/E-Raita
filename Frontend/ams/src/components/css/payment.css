@@ -1,0 +1,91 @@
+.payment-container {
+  max-width: 800px;
+  position: sticky;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 10%;
+}
+.container-payment {
+  height: 80vh;
+  width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 75px;
+}
+.product-form {
+  float: left;
+}
+
+.payment-container h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.payment-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-container label {
+  margin-bottom: 10px;
+}
+
+.payment-container input[type="text"],
+.payment-container input[type="number"],
+.payment-container input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 190px;
+}
+.payment-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 370px;
+}
+
+.payment-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.payment-container button:hover {
+  background-color: #0056b3;
+}
+
+.success-message1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+
+  background-color: aquamarine;
+  width: 50%;
+  height: 160px;
+  margin-top: 70px;
+  margin-left: 250px;
+}
+
+.success-message1 pdf {
+  text-align: center;
+  margin-left: 50px;
+}
+.paymentimage {
+  float: right;
+  display: flex;
+}
+.payment-image {
+  height: 350px;
+}

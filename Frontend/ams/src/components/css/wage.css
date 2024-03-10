@@ -1,0 +1,24 @@
+/* totalWagesChart.css */
+
+.chart-container {
+  margin-top: -20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 230px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.download-button {
+  float: right;
+}

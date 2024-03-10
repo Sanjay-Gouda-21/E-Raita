@@ -1,0 +1,204 @@
+/* update customer */
+/* updatecustomer.css */
+
+.update-customer-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.update-customer-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* input[type="text"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+} */
+
+.btn-1 {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.btn-1:hover {
+  background-color: #2980b9;
+}
+
+.btn-1 {
+  margin-top: 20px;
+}
+
+.btn-1 {
+  width: 100px;
+  align-self: flex-start;
+}
+
+
+/* update labour */
+/* updatelabour.css */
+
+.update-labour-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.update-labour-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* input[type="text"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+} */
+
+.btn-1 {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.btn-1:hover {
+  background-color: #2980b9;
+}
+
+.btn-1 {
+  margin-top: 20px;
+}
+
+/* update scheme */
+/* updatescheme.css */
+
+/* Container for the update scheme form */
+.update-scheme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form wrapper */
+.update-scheme-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+/* Form title */
+.update-scheme-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form labels */
+.update-scheme-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Form input fields */
+.input-field,
+.update-scheme-form input[type="date"],
+.update-scheme-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Apply Link field style */
+.update-scheme-form input[type="text"][name="apply_link"] {
+  color: #3498db;
+}
+
+/* Form buttons */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  
+}
+
+.update-scheme-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-right: 5px;
+  float: left;
+}
+
+.update-scheme-form button.submit-button {
+  background-color: #3498db;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.update-scheme-form button.cancel-button {
+  background-color: #ccc;
+  color: #333;
+}
+
+.update-scheme-form button:hover {
+  background-color: #2980b9;
+}
+

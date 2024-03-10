@@ -1,0 +1,62 @@
+/* labour.css */
+
+.labours-container {
+  padding: 20px;
+  margin-left: 230px;
+  margin-top: -40px;
+}
+
+.insert-labour-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.labours-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.labours-table th,
+.labours-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.labours-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.labours-table td {
+  vertical-align: middle;
+}
+
+.labours-table button {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.labours-table button:hover {
+  background-color: #219049;
+}

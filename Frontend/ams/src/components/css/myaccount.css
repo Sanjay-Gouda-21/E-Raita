@@ -1,0 +1,88 @@
+/* myaccount.css */
+
+.my-account-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.myac-image {
+  flex: 1;
+}
+
+.myac-image img {
+  width: 70%;
+  margin-left: 10%;
+ 
+  height: auto;
+}
+
+.profile-section {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width:400px;
+  margin-right: 20%;
+}
+
+.profile-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #a71f2e;
+}
+
+.p-tag {
+  font-size: 16px;
+  margin: 5px 0;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.p-tag span {
+  font-weight: bold;
+  margin-left: 10px;
+  color: darkgreen;
+}
+
+.update-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.update-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+}
+
+.logout-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #a71f2e;
+}

@@ -1,0 +1,94 @@
+/* insertproduct.css */
+
+.insert-product-container {
+  width: 700px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  height: 70vh;
+  margin-top: 100px;
+}
+.product-image-insert{
+  float: left;
+}
+.insert-product{
+  width: 90%;
+  border-radius: 5px;
+}
+.insert-product-container h2 {
+  text-align: left;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #140f0f;
+}
+.product-form{
+  float: right;
+margin-top: 20px;  
+}
+.form-control {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100px;
+  padding: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  float: left;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.back-button {
+  display: block;
+  width: 100px;
+  padding: 5px;
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+
+  margin-left: 86px;
+}
+
+.back-button:hover {
+  background-color: #999;
+}

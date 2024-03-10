@@ -1,0 +1,67 @@
+/* farmers.css */
+
+/* Container styling */
+.farmers-container {
+  padding: 20px;
+  margin-left: 230px;
+  margin-top: -40px;
+}
+
+/* Button styling */
+.insert-farmer-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.farmer-p{
+  background-color: yellow;
+  padding: 10px;
+}
+
+/* Table styling */
+.farmers-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table header styling */
+.farmers-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Table row styling */
+.farmer-item {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Table cell (td) styling */
+.farmer-item td {
+  padding: 10px;
+}
+
+/* Action buttons styling */
+.f-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}

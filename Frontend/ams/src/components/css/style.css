@@ -1,0 +1,123 @@
+
+
+
+/* style.css */
+
+
+
+
+
+
+
+/* ----my account ---- */
+
+
+
+
+
+/* Headings styles */
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #007bff;
+}
+
+/* Admin details styles */
+.admin-details {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 2px solid #007bff;
+}
+
+.admin-details p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #444;
+}
+
+/* Social media styles */
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media h2 {
+  color: #007bff;
+}
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Feedback form styles */
+.feedback-form {
+  margin-top: 20px;
+}
+
+.feedback-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 16px;
+  color: #333;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.thank-you-message {
+  color: #009900;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* Add this CSS to style the success message */
+.success-message {
+  background-color: #4caf50; /* Green background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Center-align text */
+  padding: 10px; /* Add padding for better visual appearance */
+  margin-bottom: 10px; /* Add margin to separate from other content */
+  border-radius: 4px; /* Add rounded corners */
+}
+
+/* Add a CSS animation for the fade-out effect */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Apply the fade-out animation to the success message */
+.success-message.fade-out {
+  animation: fadeOut 2s ease-in-out; /* Adjust the duration as needed */
+}

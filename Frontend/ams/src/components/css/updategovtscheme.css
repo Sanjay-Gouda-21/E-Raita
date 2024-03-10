@@ -1,0 +1,90 @@
+/* update.css */
+
+/* Styles for the schemes container */
+.schemes-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading style */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Insert Scheme button style */
+.insert-scheme-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Total Schemes paragraph style */
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Schemes table styles */
+.schemes-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table header styles */
+.schemes-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Table row styles */
+.scheme-item td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Description column style */
+.description-column {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Apply Link column style */
+.apply-link-column {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Action buttons style */
+.scheme-item button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Error message style */
+.div.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Hover effect for buttons */
+.scheme-item button:hover {
+  background-color: #0056b3;
+}

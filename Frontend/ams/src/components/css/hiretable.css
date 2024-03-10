@@ -1,0 +1,50 @@
+/* update.css */
+
+/* Container styles */
+.hire-container {
+  margin-left: 230px;
+    margin-top: -20px;
+
+  
+}
+
+/* Table styles */
+.hire-table {
+  
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 850px;
+ 
+}
+
+.hire-table th,
+.hire-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Header row styles */
+.hire-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Table row styles */
+.hire-item td {
+  background-color: #fff;
+}
+
+/* Action buttons styles */
+.hire-btn1 {
+  padding: 6px 12px;
+  margin-right: 4px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.hire-btn1:hover {
+  background-color: #0056b3;
+}

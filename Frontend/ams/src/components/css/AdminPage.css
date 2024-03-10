@@ -1,0 +1,52 @@
+
+.admin-containe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  width: fit-content;
+  overflow: hidden;
+  margin-left: 200px;
+  height: 72vh;
+  margin-top: 30px;
+
+}
+
+.btna {
+  
+  flex-basis: calc(33.33% - 20px);
+  background-color: #a6fa75;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 250px;
+  height: 120px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btna p{
+    color: rgb(20, 2, 32);
+    font-size: 25px;
+}
+.admin-button span{
+    
+    font-size: larger;
+    color: #0c0c0d;
+}
+
+.btna:hover{
+  background-color: aqua;
+}
+
+
+
+.admin-button-custom1 {
+  background-color: #e74c3c;
+}
+
+.admin-button-custom2 {
+  background-color: #27ae60;
+}
